@@ -1,0 +1,23 @@
+{
+  "name": "mywebsite_storyblok",
+  "version": "1.0.0",
+  "description": "POC StoryBlok",
+  "author": "jmendoza",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "css-loader": "^3.5.0",
+    "marked": "^0.8.2",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "storyblok-nuxt": "^1.2.0"
+  }
+}
